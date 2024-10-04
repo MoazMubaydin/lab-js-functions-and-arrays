@@ -13,7 +13,7 @@ function findLongestWord(words) {
     if(words.length === 0){
         return null;
     }
-    let longestWord = `1`;
+    let longestWord = ``;
     words.forEach(element => {
         if(element.length > longestWord.length){
             longestWord = element;
